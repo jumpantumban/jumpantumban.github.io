@@ -1,2 +1,2 @@
 # jumpantumban.github.io
-test
+test for own page
