@@ -7,8 +7,6 @@ var myHeading = document.querySelector('h1');
 
 
 
-var myButton = document.querySelector('button');
-
 
 
 myImage.onclick = function() {
@@ -33,14 +31,16 @@ setUser(){
 myImage.setAttribute('src' , 'images/ww.png');
 
 }*/
+var myButton = document.querySelector('button');
+var myImage2 = document.querySelector('img');
 
 myButton.onclick = function() {
 
 
   var storedName = localStorage.getItem('name');
   myHeading.textContent = 'She s the one for' + storedName;
-var src = myImage.getAttribute( 'src');
-myImage.setAttribute('src' , 'testweb/images/ww.png');
+var src2 = myImage.getAttribute( 'src');
+myImage2.setAttribute('src' , 'testweb/images/ww.png');
 
 }
 
